@@ -1,5 +1,21 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+@font-face 
+  font-family: 'Drogowskaz'
+  src: url('~/public/fonts/Drogowskaz_Medium.otf') format('otf')
+  font-weight: normal
+  font-style: normal
+
+// construction
+
+.debug
+  outline: 1px solid lightgray
+  font: "Drogowskaz Medium", "Drowoskaz", monospace
+
+.autospectrum.navbar-item
+  img
+    max-height: 5.75rem
+
 // Config vars
 $kaldi-red: #FD461E
 $kaldi-red-invert: #fff
@@ -40,3 +56,4 @@ $primary-invert: $kaldi-red-invert
   margin-top: 0 !important
 
 @import "~bulma"
+

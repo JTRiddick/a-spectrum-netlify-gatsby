@@ -2,7 +2,7 @@
 
 @font-face 
   font-family: 'Drogowskaz'
-  src: url('~/public/fonts/Drogowskaz_Medium.otf') format('otf')
+  src: url('~/static/fonts/Drogowskaz_Medium.otf') format('otf')
   font-weight: normal
   font-style: normal
 
@@ -10,7 +10,10 @@
 
 .debug
   outline: 1px solid lightgray
-  font: "Drogowskaz Medium", "Drowoskaz", monospace
+  font-family: "Drogowskaz", monospace
+  .content
+    h1,h2,h3,h4,h5,h6
+      letter-spacing: 0.25rem
 
 .autospectrum.navbar-item
   img

@@ -8,9 +8,9 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <section className="section debug">
-          <div className="container debug">
-            <div className="content debug">
+        <section className="section">
+          <div className="container">
+            <div className="content">
                 <h1 className="has-text-weight-bold is-size-2">Hello Autospectrum</h1>
                 <div className="debug">
                   <h4>This will be a website for Autospectrum LLC</h4>
